@@ -61,7 +61,7 @@ while True:
                                     if(session["vaccine"] != ''):
                                         print("\t Vaccine type: ", session["vaccine"])
                                     print("\n")
-                                    counter = counter + 1
+                                    counter += 1
                                     mixer.init()
                                     mixer.music.load('sound_dingdong.wav')
                                     mixer.music.play()
